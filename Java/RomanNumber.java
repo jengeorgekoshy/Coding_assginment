@@ -10,12 +10,12 @@ public class RomanNumber {
         System.out.print("Enter a Roman numeral: ");
         String romanNumber = sc.nextLine();
         romanNumber = romanNumber.trim();
-        int result = romanToDecimal(romanNumber);
+        int result = romanToInteger(romanNumber);
         System.out.println("The integer value of " + romanNumber + " is " + result);
         System.out.println();
         sc.close();
     }
-    public static int romanToDecimal(String str) {
+    public static int romanToInteger(String str) {
         int res = 0;
         for(int i = 0; i < str.length(); i++){
             char currentSymbol = str.charAt(i);

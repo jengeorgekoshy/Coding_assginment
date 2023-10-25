@@ -15,8 +15,6 @@ node <file_name.js>
 ```
 ## To view the html page
 
-- open the index.html file
+- open the index.html file in the browser
 
-```bash
-git clone https://github.com/jengeorgekoshy/Coding_assignment.git
 
